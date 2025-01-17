@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Test3D from './test/test3D.js';
+// import RenderPage from './test/renderPage.js';
+import MyScene from './test/myScene.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        {/* <Route path="/" element={<RenderPage />} /> */}
+        <Route path="/" element={<Test3D />} />
+        <Route path="/scene" element={<MyScene />} />
+      </Routes>
+    </Router>
   );
 }
 
