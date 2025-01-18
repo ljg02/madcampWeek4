@@ -1,0 +1,21 @@
+.banner {
+    background-image: url('./Assets/banner_home.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    text-align: center;
+  }
+  
+  .banner-text h1 {
+    font-size: 2.5rem;
+  }
+  
+  .banner-text p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
