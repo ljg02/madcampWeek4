@@ -8,8 +8,8 @@ function Search() {
   return (
     <div>
       <Header />
-      <SearchBar />
       <Banner />
+      <SearchBar />
     </div>
   );
 }
