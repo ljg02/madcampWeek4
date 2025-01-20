@@ -5,10 +5,10 @@ import "./MapTap.css";
 
 function MapTap() {
     return (
-        <div>
-          <KaKaoMap />
-        </div>
-      );
+      <div>
+        <KaKaoMap />
+      </div>
+    );
 }
 
 export default MapTap;
